@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_accept_mode"
+        android:orderInCategory="1"
+        android:title="Accept invitation mode"
+        android:icon="@drawable/ic_accept_invitation_white_24dp"
+        app:showAsAction="always"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/action_decline_mode"
+        android:orderInCategory="1"
+        android:title="Decline invitation mode"
+        android:icon="@drawable/ic_decline_invitation_white_24dp"
+        app:showAsAction="always"
+        android:visible="true"/>
+</menu>
